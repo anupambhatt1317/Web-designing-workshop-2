@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Pyramid</title>
+</head>
+<body>
+
+<h2>Simple Pyramid</h2>
+<pre id="output"></pre>
+
+<script>
+let n = 5;
+let pattern = "";
+
+for (let i = 1; i <= n; i++) {
+  for (let j = 1; j <= i; j++) {
+    pattern += "* ";
+  }
+  pattern += "\n";
+}
+
+document.getElementById("output").textContent = pattern;
+</script>
+
+</body>
+</html>
