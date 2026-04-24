@@ -6,7 +6,7 @@
 }
 
 body{
-    background: rgb(90, 99, 253);
+    background :linear-gradient(135deg,#667eea,#3e04fb);
     height:100vh;
     display:flex;
     justify-content:center;
@@ -52,7 +52,7 @@ input{
 button{
     width:100%;
     padding:10px;
-    background:#f3b008;
+    background:#4f46e5;
     color:white;
     border:none;
     font-size:16px;
@@ -62,7 +62,7 @@ button{
 }
 
 button:hover{
-    background:#04f45c;
+    background:#4338ca;
     transform:scale(1.03);
 }
 
